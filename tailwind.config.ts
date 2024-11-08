@@ -8,9 +8,16 @@ export default {
   ],
   theme: {
     extend: {
-      colors: {
-        background: "var(--background)",
-        foreground: "var(--foreground)",
+      fontFamily: {
+        pixel: ['PressStart2P', 'system-ui'],
+      },
+      animation: {
+        'pixel-bounce': 'bounce 1s infinite',
+        'pixel-spin': 'spin 2s linear infinite',
+        'pixel-pulse': 'pulse 2s cubic-bezier(0.4, 0, 0.6, 1) infinite',
+      },
+      borderWidth: {
+        'pixel': '2px',
       },
     },
   },
