@@ -11,10 +11,10 @@ export default function TalkButton() {
       <motion.button
         whileHover={{ scale: 1.1 }}
         whileTap={{ scale: 0.9 }}
-        className="pixel-borders bg-primary text-white px-8 py-4 rounded-lg text-xl md:text-2xl font-pixel"
+        className="pixel-borders bg-primary text-white px-8 py-4 rounded-lg text-xl md:text-2xl font-pixel pixel-text"
         onClick={() => setShowChat(true)}
       >
-        Talk to Me!
+        Let's Talk!
       </motion.button>
 
       <AnimatePresence>
@@ -36,7 +36,7 @@ export default function TalkButton() {
               <ChatBubble />
               <button
                 onClick={() => setShowChat(false)}
-                className="absolute top-4 right-4 text-white font-pixel px-4 py-2 pixel-borders hover:opacity-80"
+                className="absolute top-4 right-4 text-white font-pixel pixel-text px-4 py-2 pixel-borders hover:opacity-80"
               >
                 ✕
               </button>
@@ -46,4 +46,4 @@ export default function TalkButton() {
       </AnimatePresence>
     </>
   )
-} 
+}

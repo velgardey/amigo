@@ -8,25 +8,24 @@ import 'swiper/css/pagination'
 
 const activities = [
   {
-    title: 'Pixel Art Creator',
-    description: 'Create your own pixel masterpiece!',
-    image: '/images/activity-placeholders/game1.png',
+    title: 'Match the Yoga Posture',
+    description: 'Mirror the yoga poses to earn points!',
+    image: '/images/activity-placeholders/yoga.png',
     color: 'bg-[#FF6B6B]'
   },
   {
-    title: 'Math Adventure',
-    description: 'Learn math with fun puzzles!',
-    image: '/images/activity-placeholders/game2.png',
+    title: 'Find that Utensil',
+    description: 'Snap pictures of household items matching clues!',
+    image: '/images/activity-placeholders/utensil.png',
     color: 'bg-[#4ECDC4]'
   },
   {
-    title: 'Story Time',
-    description: 'Interactive storytelling experience',
-    image: '/images/activity-placeholders/game3.png',
+    title: 'Friend Leaderboards',
+    description: 'See how you rank among your friends!',
+    image: '/images/activity-placeholders/leaderboard.png',
     color: 'bg-[#FFE66D]'
   }
 ]
-
 export default function ActivityCarousel() {
   return (
     <Swiper
